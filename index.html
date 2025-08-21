@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Myntra Dummy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background: #ff3f6c;
+      color: white;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav {
+      background: #fff;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+    }
+    nav a:hover {
+      color: #ff3f6c;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x300.png?text=Myntra+Banner') no-repeat center;
+      background-size: cover;
+      height: 300px;
+    }
+    .categories {
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+    .category {
+      background: white;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 200px;
+    }
+    .category img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: white;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Myntra Dummy</header>
+
+  <nav>
+    <a href="#tshirts">T-Shirts</a>
+    <a href="#jeans">Jeans</a>
+    <a href="#shirts">Shirts</a>
+  </nav>
+
+  <div class="hero"></div>
+
+  <section class="categories">
+    <div class="category" id="tshirts">
+      <img src="https://via.placeholder.com/200x200.png?text=T-Shirts" alt="T-Shirts">
+      <h3>T-Shirts</h3>
+      <p>Trendy T-Shirts collection.</p>
+    </div>
+    <div class="category" id="jeans">
+      <img src="https://via.placeholder.com/200x200.png?text=Jeans" alt="Jeans">
+      <h3>Jeans</h3>
+      <p>Stylish Jeans for Men & Women.</p>
+    </div>
+    <div class="category" id="shirts">
+      <img src="https://via.placeholder.com/200x200.png?text=Shirts" alt="Shirts">
+      <h3>Shirts</h3>
+      <p>Formal & Casual Shirts.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Myntra Dummy App | Hosted on Nginx
+  </footer>
+
+</body>
+</html>
